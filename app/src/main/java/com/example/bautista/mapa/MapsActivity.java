@@ -81,9 +81,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         // sale una marca en la casa
-        //LatLng casas = new LatLng(longitudes+1-1, latitudes-1+1);
-        //mMap.addMarker(new MarkerOptions().position(casas).title("casa2")/*.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)*/      .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_launcher)));
-        //mMap.moveCamera(CameraUpdateFactory.newLatLng(casas));
+        LatLng casas = new LatLng(longitudes+1-1, latitudes-1+1);
+        mMap.addMarker(new MarkerOptions().position(casas).title("casa2")/*.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)*/      .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_launcher)));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(casas));
 
 
 
